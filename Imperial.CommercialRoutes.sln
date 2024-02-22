@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Distributed Services", "01 - Distributed Services", "{5AB0F3F7-7238-4266-AE50-93646566A1F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{5EB9E06A-6387-4133-B6B3-8AF0D3FF5C18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain", "{BD6A78D2-94D9-4971-B870-F454C1FDD178}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infrastructure", "04 - Infrastructure", "{AE1A4F2F-FE3E-4CCF-B550-8158D080DE26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{B005284D-3632-46A1-BF43-DB37C75DB60E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imperial.CommercialRoutes.WebApi", "Imperial.CommercialRoutes.WebApi\Imperial.CommercialRoutes.WebApi.csproj", "{11B7FEC5-347B-45E6-81DD-1491A63F7BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imperial.CommercialRoutes.Application", "Imperial.CommercialRoutes.Application\Imperial.CommercialRoutes.Application.csproj", "{A10AB4D8-B846-46E4-A1C6-1E8A70759581}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imperial.CommercialRoutes.Domain", "Imperial.CommercialRoutes.Domain\Imperial.CommercialRoutes.Domain.csproj", "{602781A1-2AC3-4AAF-8A63-2B7A11655313}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imperial.CommercialRoutes.Infrastructure", "Imperial.CommercialRoutes.Infrastructure\Imperial.CommercialRoutes.Infrastructure.csproj", "{72FEB431-95FC-412A-88B4-0E35BC141A69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imperial.CommercialRoutes.WebApi.Tests", "Imperial.CommercialRoutes.WebApi.Tests\Imperial.CommercialRoutes.WebApi.Tests.csproj", "{202A8268-58A2-436D-A9EE-43D65D79AB7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imperial.CommercialRoutes.Application.Tests", "Imperial.CommercialRoutes.Application.Tests\Imperial.CommercialRoutes.Application.Tests.csproj", "{E17D71EA-2126-4F0B-88CA-7AB17F1374B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imperial.CommercialRoutes.Domain.Tests", "Imperial.CommercialRoutes.Domain.Tests\Imperial.CommercialRoutes.Domain.Tests.csproj", "{83C0899B-B5A6-4303-8B96-738B90696638}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11B7FEC5-347B-45E6-81DD-1491A63F7BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B7FEC5-347B-45E6-81DD-1491A63F7BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B7FEC5-347B-45E6-81DD-1491A63F7BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B7FEC5-347B-45E6-81DD-1491A63F7BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A10AB4D8-B846-46E4-A1C6-1E8A70759581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10AB4D8-B846-46E4-A1C6-1E8A70759581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10AB4D8-B846-46E4-A1C6-1E8A70759581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10AB4D8-B846-46E4-A1C6-1E8A70759581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{602781A1-2AC3-4AAF-8A63-2B7A11655313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602781A1-2AC3-4AAF-8A63-2B7A11655313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602781A1-2AC3-4AAF-8A63-2B7A11655313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602781A1-2AC3-4AAF-8A63-2B7A11655313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72FEB431-95FC-412A-88B4-0E35BC141A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72FEB431-95FC-412A-88B4-0E35BC141A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FEB431-95FC-412A-88B4-0E35BC141A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72FEB431-95FC-412A-88B4-0E35BC141A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202A8268-58A2-436D-A9EE-43D65D79AB7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202A8268-58A2-436D-A9EE-43D65D79AB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202A8268-58A2-436D-A9EE-43D65D79AB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202A8268-58A2-436D-A9EE-43D65D79AB7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17D71EA-2126-4F0B-88CA-7AB17F1374B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17D71EA-2126-4F0B-88CA-7AB17F1374B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17D71EA-2126-4F0B-88CA-7AB17F1374B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17D71EA-2126-4F0B-88CA-7AB17F1374B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C0899B-B5A6-4303-8B96-738B90696638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C0899B-B5A6-4303-8B96-738B90696638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C0899B-B5A6-4303-8B96-738B90696638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C0899B-B5A6-4303-8B96-738B90696638}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11B7FEC5-347B-45E6-81DD-1491A63F7BD5} = {5AB0F3F7-7238-4266-AE50-93646566A1F7}
+		{A10AB4D8-B846-46E4-A1C6-1E8A70759581} = {5EB9E06A-6387-4133-B6B3-8AF0D3FF5C18}
+		{602781A1-2AC3-4AAF-8A63-2B7A11655313} = {BD6A78D2-94D9-4971-B870-F454C1FDD178}
+		{72FEB431-95FC-412A-88B4-0E35BC141A69} = {AE1A4F2F-FE3E-4CCF-B550-8158D080DE26}
+		{202A8268-58A2-436D-A9EE-43D65D79AB7A} = {B005284D-3632-46A1-BF43-DB37C75DB60E}
+		{E17D71EA-2126-4F0B-88CA-7AB17F1374B5} = {B005284D-3632-46A1-BF43-DB37C75DB60E}
+		{83C0899B-B5A6-4303-8B96-738B90696638} = {B005284D-3632-46A1-BF43-DB37C75DB60E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CA46EE3-7DB6-4364-A2B0-FCF0B0DE256B}
+	EndGlobalSection
+EndGlobal
